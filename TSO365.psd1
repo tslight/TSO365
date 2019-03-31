@@ -5,7 +5,7 @@
     Copyright		= '(c) Toby Slight. All rights reserved.'
     Description		= 'Interact with Microsoft Online Office 365'
     RequiredModules	= @(
-	'MCSAD'
+	'TSAD'
 	'TSUtils'
     )
     FunctionsToExport	= '*'
