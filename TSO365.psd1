@@ -24,7 +24,7 @@
     Author = 'Toby Slight'
 
     # Company or vendor of this module
-    CompanyName = 'M&C Saatchi'
+    # CompanyName = ''
 
     # Copyright statement for this module
     Copyright = '(c) Toby Slight. All rights reserved.'
