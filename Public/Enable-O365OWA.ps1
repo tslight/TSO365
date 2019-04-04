@@ -7,7 +7,7 @@ function Enable-O365OWA {
 
     begin {
 	try {
-	    Get-Command Get-O365CASMailbox -ErrorAction Stop
+	    Get-Command Get-O365CASMailbox -ErrorAction Stop | Out-Null
 	} catch {
 	    Write-Warning "Can't connect to Office 365."
 	    Write-Warning (
